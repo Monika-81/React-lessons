@@ -17,9 +17,7 @@ class StatefulGreetingWithCallback extends React.Component {
         }, () => {
             console.log("new state", this.state.introduction)
             console.log("new state", this.state.buttonText)
-            
-        }
-        );
+        });
         console.log(this.state.introduction)
         console.log(this.state.buttonText)
     }
