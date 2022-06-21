@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import ConditionalRenderingClass from './components/ConditionalRenderingClass';
-import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
+import NestingComponents from './components/NestingComponents';
+// import ConditionalRenderingClass from './components/ConditionalRenderingClass';
+// import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
 // import EventBinding from './components/EventBinding';
 // import EventsClass from './components/EventsClass';
 // import EventsFunctional from './components/EventsFunctional';
@@ -21,9 +22,10 @@ function App() {
       <StatefulGreetingWithPrevState />
       <EventsClass />
       <EventsFunctional />
-      <EventBinding /> */}
+      <EventBinding />
       <ConditionalRenderingClass />
-      <ConditionalRenderingFunctional connected={true} />
+      <ConditionalRenderingFunctional connected={true} /> */}
+      <NestingComponents />
     </div>
   );
 }
