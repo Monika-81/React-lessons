@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import RenderingsLists from './components/RenderingsLists';
+import LifeCyclesCWU from './components/LifeCyclesCWU';
+// import LifeCyclesCDU from './components/LifeCyclesCDU';
+// import LifeCyclesCDM from './components/LifeCyclesCDM';
+// import RenderingsLists from './components/RenderingsLists';
 // import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 // import NestingComponents from './components/NestingComponents';
 // import ConditionalRenderingClass from './components/ConditionalRenderingClass';
@@ -17,19 +20,23 @@ import RenderingsLists from './components/RenderingsLists';
 function App() {
   return (
     <div className="App">
-      {/* <FunctionalGreeting />
-      <FunctionalGreetingWithProps greeting="Nice to meet you!" name="John" age="32" />
-      <StatefulGreeting greeting="I'm a stateful component" name="Tim"/>
-      <StatefulGreetingWithCallback />
-      <StatefulGreetingWithPrevState />
-      <EventsClass />
-      <EventsFunctional />
-      <EventBinding />
-      <ConditionalRenderingClass />
-      <ConditionalRenderingFunctional connected={true} />
-      <NestingComponents />
-      <MethodsAsPropsParent /> */}
-      <RenderingsLists />
+      {/* <FunctionalGreeting /> */}
+      {/* <FunctionalGreetingWithProps greeting="Nice to meet you!" name="John" age="32" /> */}
+      {/* <StatefulGreeting greeting="I'm a stateful component" name="Tim"/> */}
+      {/* <StatefulGreetingWithCallback /> */}
+      {/* <StatefulGreetingWithPrevState /> */}
+      {/* <EventsClass /> */}
+      {/* <EventsFunctional /> */}
+      {/* <EventBinding /> */}
+      {/* <ConditionalRenderingClass /> */}
+      {/* <ConditionalRenderingFunctional connected={true} /> */}
+      {/* <NestingComponents /> */}
+      {/* <MethodsAsPropsParent /> */}
+      {/* <RenderingsLists /> */}
+      {/* <LifeCyclesCDM /> */}
+      {/* <LifeCyclesCDU /> */}
+      <LifeCyclesCWU />
+
     </div>
   );
 }
