@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import LifeCyclesCWU from './components/LifeCyclesCWU';
+import ControlledForm from './components/ControlledForm';
+// import LifeCyclesCWU from './components/LifeCyclesCWU';
 // import LifeCyclesCDU from './components/LifeCyclesCDU';
 // import LifeCyclesCDM from './components/LifeCyclesCDM';
 // import RenderingsLists from './components/RenderingsLists';
@@ -35,7 +36,8 @@ function App() {
       {/* <RenderingsLists /> */}
       {/* <LifeCyclesCDM /> */}
       {/* <LifeCyclesCDU /> */}
-      <LifeCyclesCWU />
+      {/* <LifeCyclesCWU /> */}
+      <ControlledForm />
 
     </div>
   );
