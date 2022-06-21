@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import NestingComponents from './components/NestingComponents';
+import MethodsAsPropsParent from './components/MethodsAsPropsParent';
+// import NestingComponents from './components/NestingComponents';
 // import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 // import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
 // import EventBinding from './components/EventBinding';
@@ -24,8 +25,9 @@ function App() {
       <EventsFunctional />
       <EventBinding />
       <ConditionalRenderingClass />
-      <ConditionalRenderingFunctional connected={true} /> */}
-      <NestingComponents />
+      <ConditionalRenderingFunctional connected={true} />
+      <NestingComponents /> */}
+      <MethodsAsPropsParent />
     </div>
   );
 }
