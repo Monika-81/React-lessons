@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import EventBinding from './components/EventBinding';
+import ConditionalRenderingClass from './components/ConditionalRenderingClass';
+import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
+// import EventBinding from './components/EventBinding';
 // import EventsClass from './components/EventsClass';
 // import EventsFunctional from './components/EventsFunctional';
 // import FunctionalGreeting from './components/FunctionalGreetings';
@@ -18,8 +20,10 @@ function App() {
       <StatefulGreetingWithCallback />
       <StatefulGreetingWithPrevState />
       <EventsClass />
-      <EventsFunctional /> */}
-      <EventBinding />
+      <EventsFunctional />
+      <EventBinding /> */}
+      <ConditionalRenderingClass />
+      <ConditionalRenderingFunctional connected={true} />
     </div>
   );
 }
