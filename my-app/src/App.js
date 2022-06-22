@@ -1,5 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
+import UseEffectCounterContainer from './components/UseEffectCounterContainer';
+
 // import UseEffectCounter from './components/UseEffectCounter';
 // import ClassCounter from './components/ClassCounter';
 // import UseStateWithObjects from './components/UseStateWithObjects.js';
@@ -52,6 +53,8 @@ function App() {
       {/* <UseStateWithObjects/> */}
       {/* <ClassCounter /> */}
       {/* <UseEffectCounter /> */}
+      <UseEffectCounterContainer />
+
 
 
     </div>
