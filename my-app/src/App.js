@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import ControlledFormHooks from './components/ControlledFormHooks';
+import UseEffectCounter from './components/UseEffectCounter';
+// import ClassCounter from './components/ClassCounter';
+// import UseStateWithObjects from './components/UseStateWithObjects.js';
+// import UseStateWithArray from './components/UseStateWithArray';
+// import ControlledFormHooks from './components/ControlledFormHooks';
 // import HooksCounter from './components/HooksCounter';
 // import UncontrolledForm from './components/UncontrolledForm';
 // import ControlledForm from './components/ControlledForm';
@@ -43,7 +47,12 @@ function App() {
       {/* <ControlledForm /> */}
       {/* <UncontrolledForm /> */}
       {/* <HooksCounter /> */}
-      <ControlledFormHooks />
+      {/* <ControlledFormHooks /> */}
+      {/* <UseStateWithArray /> */}
+      {/* <UseStateWithObjects/> */}
+      {/* <ClassCounter /> */}
+      <UseEffectCounter />
+
 
     </div>
   );
