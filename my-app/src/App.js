@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import ControlledForm from './components/ControlledForm';
+import ControlledFormHooks from './components/ControlledFormHooks';
+// import HooksCounter from './components/HooksCounter';
+// import UncontrolledForm from './components/UncontrolledForm';
+// import ControlledForm from './components/ControlledForm';
 // import LifeCyclesCWU from './components/LifeCyclesCWU';
 // import LifeCyclesCDU from './components/LifeCyclesCDU';
 // import LifeCyclesCDM from './components/LifeCyclesCDM';
@@ -37,7 +40,10 @@ function App() {
       {/* <LifeCyclesCDM /> */}
       {/* <LifeCyclesCDU /> */}
       {/* <LifeCyclesCWU /> */}
-      <ControlledForm />
+      {/* <ControlledForm /> */}
+      {/* <UncontrolledForm /> */}
+      {/* <HooksCounter /> */}
+      <ControlledFormHooks />
 
     </div>
   );
